@@ -1,0 +1,44 @@
+PGP Group project in React Native. 
+
+INSTRUCTIONS
+
+# JavaScript React Native - Contact List using APis
+
+## A. Scenario
+
+The contact list now works great - expect for the fact that it doesn't store the data. Everytime the application is restarted the data is gone. This is annoying the sales people ...
+
+A problem with security has also arised - apparently a friend of a friend has got hold of the download link for our demo application and got our entire customer database (all 20 of them) downloaded to their own phone. This too, annoys the sales people a bit.
+
+We need to store the data and add some kind of authentication to the application.
+
+## B. What you will be working on today
+
+Today we will use Firestore to setup a backend, using the Firestore database, and authentication through email and password authentication.
+
+## C. Testing and linting setup
+
+### Linting
+
+Set up the project to use ESLint with the [Here's](https://github.com/saltsthlm/salt-linting-demo) an instruction repo on how to use linters.
+
+### Testing
+
+This exercise will not focus on writing automated tests for the application.
+
+## D. Lab instructions
+
+* Setup an account at [Firebase](https://firebase.google.com/), if you haven't got one before
+* Create an application there
+  * Enable Firestore
+  * Enable Email and Password authentication
+* Use [this guide](https://docs.expo.io/guides/using-firebase/) to enable authentication and firestore.
+
+Other resources that we found useful:
+
+* This video is helpful for [Firestore handling](https://www.youtube.com/watch?v=eET0YtDBWWg)
+* This video is helpful for [Authentication](https://www.youtube.com/watch?v=RrGtyfo1wr0)
+
+---
+
+Good luck and have fun!
